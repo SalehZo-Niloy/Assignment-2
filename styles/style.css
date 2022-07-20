@@ -21,6 +21,7 @@ body {
     justify-content: space-around;
     align-items: center;
     border-radius: 30px;
+    margin-top: 10px;
 
 }
 
@@ -42,16 +43,33 @@ body {
     margin-bottom: 30px;
 }
 
+@keyframes button-color {
+    from {
+        background-color: red;
+        color: white;
+    }
+
+    50% {
+        background-color: gold;
+        color: black;
+    }
+
+    to {
+        background-color: red;
+        color: white;
+    }
+}
+
 .sec-1 a,
 .view-button a {
     display: inline-block;
     text-decoration: none;
-    color: white;
     font-size: 20px;
-    background-color: red;
     padding: 16px 25px;
     border-radius: 10px;
+    animation: button-color 3s ease 0s infinite;
 }
+
 
 .ambassador {
     padding: 0;
