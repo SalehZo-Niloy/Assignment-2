@@ -1,0 +1,67 @@
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+
+    /* first section styles  */
+    .sec-1 h1 {
+        font-size: 40px;
+    }
+
+    .sec-1 p {
+        font-size: 14px;
+    }
+
+    .ambassador {
+        height: 380px;
+    }
+
+    .sec-1 .ambassador img {
+        height: 380px;
+    }
+
+    /* Second section styles  */
+    .sec-2 {
+        flex-direction: column;
+    }
+
+    .sec-2 nav {
+        flex-direction: row;
+        background-color: white;
+        width: 100%;
+        height: 100%;
+        margin-right: 0;
+        justify-content: space-evenly;
+    }
+
+    .sec-2 nav a {
+        margin: 0;
+        width: 230px;
+    }
+
+    /* second section transfer grid  */
+    .sec-2 {
+        align-items: center;
+    }
+
+    .transfers {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        width: 100%;
+    }
+
+    .view-button {
+        display: flex;
+    }
+
+    /* second section upcoming matches  */
+    .upcoming-matches {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        width: 100%;
+    }
+
+    /* footer styles  */
+    footer .text-links {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+}
